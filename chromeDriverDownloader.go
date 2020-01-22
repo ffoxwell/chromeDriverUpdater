@@ -21,7 +21,7 @@ func main() {
 
 	downloadFile(chromeDriverZip, fileURL, chromeDriverLatestVersion)
 
-	unzip(chromeDriverZip, getUserHomeDir()+"/QWERTY")
+	unzip(chromeDriverZip, getUserHomeDir())
 
 	removeZipFile(chromeDriverZip)
 }
