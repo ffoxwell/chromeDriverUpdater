@@ -27,7 +27,7 @@ func main() {
 }
 
 func getChromeDriverLastestVersion() string {
-	resp, err := http.Get("http://chromedriver.storage.googleapis.com/LATEST_RELEASE")
+	resp, err := http.Get("https://chromedriver.storage.googleapis.com/LATEST_RELEASE")
 	if err != nil {
 		panic(err)
 	}
