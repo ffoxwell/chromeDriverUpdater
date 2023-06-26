@@ -1,5 +1,5 @@
 # chromeDriverUpdater
-go script to get the lastest version of chrome driver &amp; unzip to $HOME
+A go script to get the latest version of Chromedriver &amp; unzip to $HOME
 
 ### Usage:
 ```bash
