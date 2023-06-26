@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: JulienKode/team-labeler-action@v1.1.0
       with:
-        repo-token: "${{ secrets.TOKEN }}"
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
